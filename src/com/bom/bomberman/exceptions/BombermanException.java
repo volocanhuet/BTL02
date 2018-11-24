@@ -5,18 +5,15 @@ public class BombermanException extends Exception {
 	}
 	
 	public BombermanException(String str) {
-		super(str);
-		
+		super(str);		
 	}
 	
 	public BombermanException(String str, Throwable cause) {
-		super(str, cause);
-		
+		super(str, cause);		
 	}
 	
 	public BombermanException(Throwable cause) {
-		super(cause);
-		
+		super(cause);		
 	}
 
 }
